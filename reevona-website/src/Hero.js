@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import scrollreveal from 'scrollreveal'
+
 
 const Hero = () => {
+
+    useEffect(() => {
+        const sr = scrollreveal({
+            origin: 'bottom',
+            distance: '60px',
+            duration: 2500,
+            delay: 300, 
+            reset: true,
+        })
+
+
+        sr.reveal(".home_data-title", { delay: 900})
+    }, [])
+
     return (
-        <section className="home section" id="home"> 
+        <section className="home section" id="home">
             <img src="./Images/Home.png" alt="Home" className="home_img" />
 
             <div className="home_container container grid">
@@ -19,7 +35,7 @@ const Hero = () => {
                     </div>
 
                     <a href="#home" className="button">
-                        Explore
+                        Get a Website.
                     </a>
 
                 </div>
@@ -35,13 +51,17 @@ const Hero = () => {
                     <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="home_social-link">
                         <i class="ri-twitter-fill"></i>
                     </a>
+
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="home_social-link">
+                        <i class="ri-tiktok-fill"></i>
+                    </a>
                 </div>
 
                 <div className="home_info">
                     <div>
-                        <span className="home_info-title">5 best places to visit</span>
+                        <span className="home_info-title">View our Portfolio</span>
                         <a href="#home" className="button button_flex button_link home_info-button">
-                        More <i class="ri-arrow-right-line"></i>
+                            More <i class="ri-arrow-right-line"></i>
                         </a>
                     </div>
 
