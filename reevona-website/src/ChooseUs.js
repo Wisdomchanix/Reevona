@@ -9,12 +9,12 @@ const ChooseUs = () => {
             origin: 'bottom',
             distance: '60px',
             duration: 1500,
-            delay: 300,
+            delay: 150,
             reset: true,
         })
 
 
-        sr.reveal(".feature-box", { delay: 500, origin: 'bottom' })
+        sr.reveal(".feature-box", { delay: 150, origin: 'bottom' })
         // sr.reveal(".box_2", { delay: 500, origin: 'left' })
     }, [])
 
@@ -37,8 +37,7 @@ const ChooseUs = () => {
 
 
             <div className="chooseUs_container container">
-                <h1 className="section_title">Why Businesses Trust Reevona.</h1>
-
+                 <h1 className="section_title">Why Businesses Trust Reevona.</h1>
                 <div className="feature-box box_1">
                     <img src="/Images/REVENUE-GROWTH.png" alt="Code Icon" className="feature-icon" />
                     <h2 className="section_subtitle feature-title">Proven Track Record</h2>

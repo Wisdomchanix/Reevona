@@ -67,6 +67,8 @@ const RiskSection = () => {
                 <div className="risks-container">
                     {risks.map((risk, index) => (
                         <div key={index} className="risk-card">
+                            <div className="corner service_topLeft"></div>
+                            <div className="corner service_bottomRight"></div>
                             <h3>{risk.title}</h3>
                             <p>{risk.description}</p>
                         </div>
@@ -86,6 +88,8 @@ const RiskSection = () => {
 
                         {hiddenRisks.map((risk, index) => (
                             <div key={index} className="risk-card">
+                                <div className="corner service_topLeft"></div>
+                                <div className="corner service_bottomRight"></div>
                                 <h3>{risk.title}</h3>
                                 <p>{risk.description}</p>
                             </div>

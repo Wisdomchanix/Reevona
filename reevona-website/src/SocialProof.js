@@ -8,14 +8,14 @@ const SocialProof = () => {
         const sr = scrollreveal({
             origin: 'bottom',
             distance: '60px',
-            duration: 2500,
+            duration: 1500,
             delay: 300,
             reset: true,
         })
 
 
-        sr.reveal(".left", { delay: 500, origin: 'left' })
-        sr.reveal(".right", { delay: 500, origin: 'right' })
+        sr.reveal(".left", { delay: 300, origin: 'left' })
+        sr.reveal(".right", { delay: 300, origin: 'right' })
     }, [])
 
     const [count, setCount] = useState(0)
@@ -69,12 +69,10 @@ const SocialProof = () => {
                     <h1 className="section_title"> Why Do {count} + leading businesses<br /> trust Reeevona?</h1>
 
                     <p className="socialProof_description">
-                        Simple, We deliver solutions that solve our client's biggest problems.
-                        At <b>Reevona</b>, we've helped <b>100+ businesses, startups,
-                            and entrepreneurs</b> scale their digital presence with modern and engaging websites, apps,
-                        and designs. Our proven strategies have driven{" "} <b>higher conversions, increased revenue,
-                            and brand recognition</b> across various industries. Companies trust us because we deliver
-                        <b>real results</b>, and we're ready to do the same for you.
+                    Reevona delivers <b>real results.</b> We’ve helped 100+ businesses—especially in <b>real estate 
+                    and shortlets—boost </b>their digital presence with modern websites, apps, and designs. 
+                    Our strategies drive <b>higher bookings, increased revenue, and stronger brand recognition.</b> 
+                    Ready to scale? Let’s make it happen.
                     </p>
 
                 </div>
@@ -83,23 +81,23 @@ const SocialProof = () => {
                 <div className="social_cards">
 
                     <div className="testimonial-card main-card">
-                        <img src="./Images/home.png" alt="Client" className="client-img" />
+                        <img src="TmClientLogo.jpg" alt="Client" className="client-img" />
                         <div className="testimonial-content">
                             <h3>Our Happy Customer</h3>
                             <p>Reevona transformed our online presence. Our sales increased by 250% within three months!</p>
-                            <span className="client-name">— Jennifer K.</span>
+                            <span className="client-name">_Lendio Shortlet Apartment</span>
                             <div className="stars">★★★★★</div>
                         </div>
                     </div>
-
+                    
                     <div className="testimonial-card small-card top-left scale left">
                         <p>“Incredible team—our app is now faster and more user-friendly!”</p>
-                        <span>— Wilson T.</span>
+                        <span>— Wilson T Real Estates.</span>
                     </div>
 
                     <div className="testimonial-card small-card bottom-right scale right">
                         <p>“Reevona’s designs helped us stand out and doubled our engagement rate.”</p>
-                        <span>— Stephanie R.</span>
+                        <span>— Pristine Luxury Apartments</span>
                     </div>
 
                     <div className="stat-card number scale right">

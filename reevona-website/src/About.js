@@ -7,7 +7,7 @@ const About = () => {
         const sr = scrollreveal({
             origin: 'bottom',
             distance: '60px',
-            duration: 2500,
+            duration: 1500,
             delay: 150,
             reset: true,
         })
@@ -23,23 +23,20 @@ const About = () => {
                 <div className="about_data">
                     <h1 className="section_title about_title">Who are We</h1>
                     <p className="about_description"> 
-                        <b>Reevona</b> is a world class Web Design and Development Agency located in PortHacourt, Nigeria.
-                        At <b>Reevona</b>, we are more than just a tech company—we’re your partners in driving business growth
-                        and innovation. Founded on the principles of creativity, trust, and excellence, Reevona specializes in
-                        web and app development, graphic design, and web3 solutions. Our mission is to transform businesses by
-                        crafting solutions that elevate their digital presence, help them dominate their markets, triple their
-                        sales, and drive sustainable growth. At <b>Reevona</b>, we don’t just build websites and apps—we create
-                        growth engines for your business.
+                        Reevona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria, 
+                        specializing in websites, apps, and branding. We help <b>real estate and shortlet businesses
+                        dominate their market, increase bookings, and drive sustainable growth</b>. More than just a 
+                        tech company—we’re your partner in success.
                     </p>
                 </div>
 
                 <div className="about_img">
                     <div className="about_img-overlay">
-                        <img className="about_img-one" src="./Images/AboutUsImage.jpg" alt="About us" />
+                        <img className="about_img-one" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
                     </div>
 
                     <div className="about_img-overlay">
-                        <img className="about_img-two" src="./Images/AboutUsImage.jpg" alt="About us" />
+                        <img className="about_img-two" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
                     </div>
                 </div>
 

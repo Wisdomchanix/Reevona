@@ -60,14 +60,14 @@ const Hero = () => {
                 <div className="home_info">
                     <div>
                         <span className="home_info-title">View our Portfolio</span>
-                        <a href="#home" className="button button_flex button_link home_info-button">
+                        <a href="#portfolio" className="button button_flex button_link home_info-button">
                             More <i class="ri-arrow-right-line"></i>
                         </a>
                     </div>
 
 
                     <div className="home_info-overlay">
-                        <img src="./images/home2.jpg" className="home_info-img" alt="Home info" />
+                        <img src="./homeoverlay.jpg" className="home_info-img" alt="Home info" />
                     </div>
 
                 </div>

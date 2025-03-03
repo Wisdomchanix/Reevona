@@ -460,7 +460,6 @@ input {
 
 
 /* SOCIALPROOF */
-
 .social_proof {
   /* position: relative; */
   margin-bottom: 600px;
@@ -669,16 +668,12 @@ input {
 
 }
 
-
 /* ABOUT */
 
 .about_section {
   position: relative;
   z-index: 1;
-  /* padding: 100px 20px; 
-  background-color: #73AC8C;
-  color: #FFF; */
-}
+} 
 
 .about_data {
   text-align: center;
@@ -732,23 +727,22 @@ input {
 }
 
 .card {
-  /* position: relative; */
+  /* 
+ */
   color: white;
   background: linear-gradient(135deg, #E9CC44, #73AC8C);
   padding: 20px;
-  width: 80%;
+  width: 280px;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  margin: 40px auto;
+  margin: 10px auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
 }
 
-
-
-.card_description {
-  line-height: 1.4
+.card_description{
+  margin-bottom: 10px;
 }
 
 .card h2 {
@@ -760,7 +754,14 @@ input {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(57, 180, 8, 0.452);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.service_icon{
+  font-size: 40px;
+  color: #046c2d;
+  margin-bottom: 10px;
 }
 
 .hidden_card {
@@ -1061,7 +1062,7 @@ input {
   text-align: center;
   width: 90%;
   margin-bottom: 50px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .risk_title {
@@ -1072,31 +1073,42 @@ input {
   max-width: 600px;
   margin: 0 auto 40px;
   font-size: 1.1rem;
+  margin-top: 20px;
 }
 
 
 .risks-container {
-  text-align: left;
+  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .risk-card {
-  /* background: #73ac8c; */
+  position: relative;
+  background: white;
   padding: 30px;
+  width: 280px;
   border-radius: 8px;
-  margin-bottom: 20px;
-  /* color: white; */
-  text-align: center;
-  box-shadow: 0 8px 16px rgba(19, 19, 19, 0.15);
-  /* border: 2px solid linear-gradient(135deg, #73AC8C, #046c2d); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .risk-card h3 {
   color: #046c2d;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .accordion {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .dropdown-btn {
@@ -1141,3 +1153,24 @@ input {
 .cta-btn:hover {
   background: #f1b24a;
 }
+ 
+.corner{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.service_topLeft{
+  top: 0;
+  left: 0;
+  border-top: 7px solid #046c2d;
+  border-left: 7px solid #046c2d;
+}
+
+.service_bottomRight{
+  bottom: 0;
+  right: 0;
+  border-right: 6px solid #046c2d;
+  border-bottom: 6px solid #046c2d;
+} 

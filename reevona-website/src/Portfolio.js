@@ -1,45 +1,47 @@
 import React, { useState, useEffect } from "react";
+import website1 from './assets/portfolio_images/website1.jpg';
+import website2 from './assets/portfolio_images/website2.jpg';
+import website3 from './assets/portfolio_images/website3.jpg';
+import website4 from './assets/portfolio_images/website4.jpg'
+import website5 from './assets/portfolio_images/website5.jpg'
+import website6 from './assets/portfolio_images/website6.jpg'
 
 const slides = [
     {
         id: 1,
         title: "Zello Realestate",
-        image: "/Images/ZelloRealEstate.jpg",
-
+        image: website1,
     },
 
     {
         id: 2,
-        title: " Solom Fintech ",
-        image: "/Images/FintechHomePage.jpg",
-
+        title: " Hoommio",
+        image : website2,
     },
 
     {
         id: 3,
-        title: "Blo Insurance Company",
-        image: "/Images/InsuranceHomePage.jpg",
-
+        title: "Homy",
+        image: website3,
     },
 
     {
         id: 4,
-        title: " DiloCash Fintech Company",
-        image: "/Images/FintechHomePage2.jpg",
-
+        title: "Best House",
+        image: website4,
     },
 
     
     {
         id: 5,
         title: "Interior Design Company",
-        image: "/Images/InteriorDesign.jpg",
+        image: website5,
     },
 
     {
         id: 6,
-        title: " Law Firm",
-        image: "/Images/LawHomePage.jpg",
+        title: "Luxury Real Esate",
+        image: website6,
     },
 
     {
@@ -82,7 +84,7 @@ const Portfolio = () => {
                     <div className="slide-wrapper" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                         {slides.map((slide) => (
                             <div key={slide.id} className="slide">
-                                <img src={slide.image} alt={slide.title} className="slide-image" />
+                                <img src={slide.image} alt={slide.title} className="slide-image" loading = "lazy" />
                                 <div className="overlay">
                                     <div className="icons">
                                         <span className="icon">🔗</span>
