@@ -1,20 +1,55 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 const NavBar = () => {
+
     const [menuOpen, setMenuOpen] = useState(false);
+    const [activeSection, setActiveSection] = useState(window.location.hash || "#home");
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = document.querySelectorAll("section[id]");
+            let currentSection = "#home";
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop - 200;
+                if (window.scrollY >= sectionTop) {
+                    currentSection = `#${section.id}`;
+                }
+            });
+
+            setActiveSection(currentSection);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
         <header className="header" id="header">
             <nav className="nav navbar">
                 <a href="#home" className="nav_logo">
-                    <img src="/Reevona-logo.png" alt="Reevona logo" className = "logo" />
+                    <img src="/Reevona-logo.png" alt="Reevona logo" className="logo" />
                 </a>
+
                 <div className={`nav_menu ${menuOpen ? "show-menu" : ""}`} id="nav-menu">
                     <ul className="nav_list">
-                        <li className="nav_item"><a href="#home" className="nav_link active-link">Home</a></li>
-                        <li className="nav_item"><a href="#about" className="nav_link">About Us</a></li>
-                        <li className="nav_item"><a href="#services" className="nav_link">Services</a></li>
-                        <li className="nav_item"><a href="#portfolio" className="nav_link">Portfolio</a></li>
-                        <li className="nav_item"><a href="#testimonials" className="nav_link">Testimonials</a></li>
-                        <li className="nav_item"><a href="#contact" className="nav_link">Contact Us</a></li>
+                        {[
+                            { name: "Home", hash: "#home" },
+                            { name: "About Us", hash: "#about" },
+                            { name: "Services", hash: "#services" },
+                            { name: "Portfolio", hash: "#portfolio" },
+                            { name: "Testimonials", hash: "#testimonials" },
+                            { name: "Contact Us", hash: "#contact" },].map((item) => (
+                                <li className="nav_item" key={item.hash}>
+                                    <a
+                                        href={item.hash}
+                                        className={`nav_link ${activeSection === item.hash ? "active-link" : ""}`}
+                                        onClick={() => setMenuOpen(false)}
+                                    >
+                                        {item.name}
+                                    </a>
+                                </li>
+                            ))}
                     </ul>
                     <i className="ri-close-fill nav_close" onClick={() => setMenuOpen(false)}></i>
                 </div>

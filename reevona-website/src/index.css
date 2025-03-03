@@ -872,7 +872,7 @@ input {
   margin-bottom: 50px;
 }
 
-.chooseUs_section h1{
+.chooseUs_section h1 {
   color: black;
 }
 
@@ -922,7 +922,7 @@ input {
   transform: scaleY(-1);
 }
 
-.wave_container{
+.wave_container {
   position: relative;
   height: auto;
   width: 100%;
@@ -962,7 +962,7 @@ input {
   justify-content: center;
 }
 
-.slide img{
+.slide img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1041,4 +1041,103 @@ input {
 .view-button {
   border-radius: 5px;
   margin-top: 30px;
+}
+
+
+
+/* RISK SECTION */
+
+.risk-section {
+  /* background: #046c2d; */
+  color: black;
+  text-align: center;
+}
+
+.risk_title-container {
+  background: linear-gradient(135deg, #73AC8C, #046c2d);
+  background-color: #046c2d;
+  padding: 50px;
+  border-radius: 0px 60px 60px 0px;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 50px;
+  /* margin: 0 auto; */
+}
+
+.risk_title {
+  color: white;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+
+.risks-container {
+  text-align: left;
+}
+
+.risk-card {
+  /* background: #73ac8c; */
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  /* color: white; */
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(19, 19, 19, 0.15);
+  /* border: 2px solid linear-gradient(135deg, #73AC8C, #046c2d); */
+}
+
+.risk-card h3 {
+  color: #046c2d;
+  margin-bottom: 5px;
+}
+
+.accordion {
+  overflow: hidden;
+}
+
+.dropdown-btn {
+  margin-left: 10px;
+}
+
+.cta-btn {
+  margin-right: 10px;
+}
+
+.dropdown-btn:hover {
+  background: #f1b24a;
+}
+
+/* CTA Buttons */
+.cta_container {
+  margin-top: 30px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.cta-btn,
+.dropdown-btn {
+  background: #046c2d;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 30px;
+ 
+}
+/* 
+.cta-btn{
+  background-color: #046c2d;
+  color: #f1b24a;
+} */
+
+.cta-btn:hover {
+  background: #f1b24a;
 }

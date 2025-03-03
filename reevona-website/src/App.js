@@ -8,6 +8,7 @@ import About from "./About";
 import Services from "./Services";
 import ChooseUs from "./ChooseUs";
 import Portfolio from "./Portfolio";
+import RiskSection from "./RiskSection"
 
 const App = () => {
   useEffect(() => {
@@ -45,8 +46,9 @@ const App = () => {
               }
             });
         }
-      }); 
+      });
   }, []);
+
 
   return (
     <div>
@@ -54,11 +56,12 @@ const App = () => {
       <NavBar />
       <Hero />
       <SocialProof />
-      <About/>
+      <About />
       <Services />
       <ChooseUs />
       <Portfolio />
-    </div> 
+      <RiskSection />
+    </div>
   );
 
 }; export default App;

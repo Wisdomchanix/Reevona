@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import scrollreveal from "scrollreveal";
 
 const ChooseUs = () => {
 
+    
     useEffect(() => {
         const sr = scrollreveal({
             origin: 'bottom',

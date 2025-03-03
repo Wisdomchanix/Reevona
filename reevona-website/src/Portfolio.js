@@ -72,7 +72,7 @@ const Portfolio = () => {
 
     return (
 
-        <div className="portfolio_section section" id = "portfolio">
+        <div className="portfolio_section section" id ="portfolio">
             <div className="portfolio_container container">
                 <h1 className="section_title">Our Work Speaks For Itself</h1>
                 <div className="slider">
