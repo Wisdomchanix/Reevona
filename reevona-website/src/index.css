@@ -567,11 +567,11 @@ input {
   transform: scale(1.1);
 }
 
-@media (max-width : 435px) {
+/* @media (max-width : 435px) {
   .social_proof {
     margin-bottom: 700px;
   }
-}
+} */
 
 @media (max-width : 400px) {
 
