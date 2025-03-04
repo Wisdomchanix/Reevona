@@ -35,9 +35,9 @@ const About = () => {
                         <img className="about_img-one" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
                     </div>
 
-                    <div className="about_img-overlay">
+                    {/* <div className="about_img-overlay">
                         <img className="about_img-two" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <p className="about_data"><i>At Revvona, we don't just build websites and apps,

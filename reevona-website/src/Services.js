@@ -63,6 +63,8 @@ const Services = () => {
                     transition={{ duration: 0.3 }} >
 
                     <div className="card card-5 ">
+                        {/* <i class="ri-macbook-line service_icon"></i> */}
+                        <i class="ri-bnb-fill"></i>
                         <h2 className="section_subtitle">Web3 Development</h2>
                         <p className="card_description">
                             Secure, blockchain powered solutions for the future of digital transactions.
