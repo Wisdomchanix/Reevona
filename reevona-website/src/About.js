@@ -32,12 +32,13 @@ const About = () => {
 
                 <div className="about_img">
                     <div className="about_img-overlay">
-                        <img className="about_img-one" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
+                        {/* <img className="about_img-one" src="./AboutUsImage.jpg" alt="About Image"/> */}
+                        <img src="/Images/AboutImg2.jpg" alt="About Us Image" className="about_img-one" />
                     </div>
 
-                    {/* <div className="about_img-overlay">
-                        <img className="about_img-two" src="./AboutUsImage.jpg" alt="About us" loading = "lazy"/>
-                    </div> */}
+                    <div className="about_img-overlay">
+                        <img src="./Images/AboutImg.jpg" alt="About Us Image" className ="about_img-two"/>
+                    </div>
                 </div>
 
                 <p className="about_data"><i>At Revvona, we don't just build websites and apps,
