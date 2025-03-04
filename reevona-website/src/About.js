@@ -23,7 +23,7 @@ const About = () => {
                 <div className="about_data">
                     <h1 className="section_title about_title">Who are We</h1>
                     <p className="about_description"> 
-                        Reevona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria, 
+                        Revvona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria, 
                         specializing in websites, apps, and branding. We help <b>real estate and shortlet businesses
                         dominate their market, increase bookings, and drive sustainable growth</b>. More than just a 
                         tech company we’re your partner in success.
@@ -40,7 +40,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <p className="about_data"><i>At Reevona, we don't just build websites and apps,
+                <p className="about_data"><i>At Revvona, we don't just build websites and apps,
                 we create growth engines for your business.</i>
                 </p>
             </div>

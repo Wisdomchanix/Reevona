@@ -66,10 +66,10 @@ const SocialProof = () => {
             <div className="social_proof-container container">
 
                 <div className="social_proof-data">
-                    <h1 className="section_title"> Why Do {count} + leading businesses<br /> trust Reevona?</h1>
+                    <h1 className="section_title"> Why Do {count} + leading businesses<br /> trust Revvona?</h1>
 
                     <p className="socialProof_description">
-                        Reevona delivers <b>real results.</b> We’ve helped 100+ businesses especially in <b>real estate
+                        Revvona delivers <b>real results.</b> We’ve helped 100+ businesses especially in <b>real estate
                             and shortlets boost </b>their digital presence with modern websites, apps, and designs.
                         Our strategies drive <b>higher bookings, increased revenue, and stronger brand recognition.</b>
                         Ready to scale? Let’s make it happen.
@@ -82,7 +82,7 @@ const SocialProof = () => {
                    
                     <div className="testimonial-content">
                         <h3>Our Happy Customer</h3>
-                        <p>Reevona transformed our online presence. Our sales increased by 250% within three months!</p>
+                        <p>Revvona transformed our online presence. Our sales increased by 250% within three months!</p>
                         <span className="client-name">_Lendio Shortlet Apartment</span>
                         <div className="stars">★★★★★</div>
                         {/* <img src="TmClientLogo.jpg" alt="Client" className="client-img" /> */}
@@ -96,7 +96,7 @@ const SocialProof = () => {
                 </div>
 
                 <div className="testimonial-card small-card bottom-right scale right">
-                    <p>“Reevona’s designs helped us stand out and doubled our engagement rate.”</p>
+                    <p>“Revvona’s designs helped us stand out and doubled our engagement rate.”</p>
                     <span>— Pristine Luxury Apartments</span>
                 </div>
 

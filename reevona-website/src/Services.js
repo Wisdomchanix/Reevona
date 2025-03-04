@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import scrollreveal from 'scrollreveal';
 import SpiralLine from './SpiralLine';
+import { motion } from "framer-motion";
 
 const Services = () => {
 
@@ -30,6 +31,7 @@ const Services = () => {
 
             <div className="cards_container container">
                 <h1 className="section_title">Our Services, Your Growth</h1>
+
                 <div className="card card-1 show_card">
                     <i class="ri-macbook-line service_icon"></i>
                     <h2 className="section_subtitle">Website & App Development</h2>
@@ -54,15 +56,20 @@ const Services = () => {
                     </p>
                 </div>
 
+                <motion.div
+                    className="hidden_card"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={showAll ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3 }} >
 
-                <div className={`card card-5 hidden_card ${showAll ? "show" : ""}`}>
+                    <div className="card card-5 ">
+                        <h2 className="section_subtitle">Web3 Development</h2>
+                        <p className="card_description">
+                            Secure, blockchain powered solutions for the future of digital transactions.
+                        </p>
+                    </div>
+                </motion.div>
 
-                    <i class="ri-eth-line service_icon"></i>
-                    <h2 className="section_subtitle">Web3 Development</h2>
-                    <p className="card_description">
-                        Secure, blockchain powered solutions for the future of digital transactions.
-                    </p>
-                </div>
 
                 <div className="servicesButton_container">
                     <button className="services_btn" onClick={toggleServices}>

@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="home_container container grid">
                 <div className="home_data">
                     <h1 className="home_data-title">
-                        Unlock Your <br /> <b> Business Potential </b> <br /> With Reevona
+                        Unlock Your <br /> <b> Business Potential </b> <br /> With Revvona
                     </h1>
 
                     <div className="home_data-subtitle">
