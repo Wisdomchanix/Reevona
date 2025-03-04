@@ -15,7 +15,7 @@ const SocialProof = () => {
 
 
         sr.reveal(".left", { delay: 300, origin: 'left' })
-        sr.reveal(".right", { delay: 300, origin: 'right' })
+        sr.reveal(".right", { delay: 300, origin: 'left' })
     }, [])
 
     const [count, setCount] = useState(0)
@@ -61,53 +61,51 @@ const SocialProof = () => {
     }, [hasStarted])
 
     return (
-        <section ref={sectionRef} className="social_proof section" id = "testimonials">
+        <section ref={sectionRef} className="social_proof section" id="testimonials">
 
             <div className="social_proof-container container">
 
                 <div className="social_proof-data">
-                    <h1 className="section_title"> Why Do {count} + leading businesses<br /> trust Reeevona?</h1>
+                    <h1 className="section_title"> Why Do {count} + leading businesses<br /> trust Reevona?</h1>
 
                     <p className="socialProof_description">
-                    Reevona delivers <b>real results.</b> We’ve helped 100+ businesses—especially in <b>real estate 
-                    and shortlets—boost </b>their digital presence with modern websites, apps, and designs. 
-                    Our strategies drive <b>higher bookings, increased revenue, and stronger brand recognition.</b> 
-                    Ready to scale? Let’s make it happen.
+                        Reevona delivers <b>real results.</b> We’ve helped 100+ businesses especially in <b>real estate
+                            and shortlets boost </b>their digital presence with modern websites, apps, and designs.
+                        Our strategies drive <b>higher bookings, increased revenue, and stronger brand recognition.</b>
+                        Ready to scale? Let’s make it happen.
                     </p>
 
                 </div>
 
 
-                <div className="social_cards">
-
-                    <div className="testimonial-card main-card">
-                        <img src="TmClientLogo.jpg" alt="Client" className="client-img" />
-                        <div className="testimonial-content">
-                            <h3>Our Happy Customer</h3>
-                            <p>Reevona transformed our online presence. Our sales increased by 250% within three months!</p>
-                            <span className="client-name">_Lendio Shortlet Apartment</span>
-                            <div className="stars">★★★★★</div>
-                        </div>
+                <div className="testimonial-card main-card">
+                   
+                    <div className="testimonial-content">
+                        <h3>Our Happy Customer</h3>
+                        <p>Reevona transformed our online presence. Our sales increased by 250% within three months!</p>
+                        <span className="client-name">_Lendio Shortlet Apartment</span>
+                        <div className="stars">★★★★★</div>
+                        {/* <img src="TmClientLogo.jpg" alt="Client" className="client-img" /> */}
                     </div>
-                    
-                    <div className="testimonial-card small-card top-left scale left">
-                        <p>“Incredible team—our app is now faster and more user-friendly!”</p>
-                        <span>— Wilson T Real Estates.</span>
-                    </div>
+                   
+                </div>
 
-                    <div className="testimonial-card small-card bottom-right scale right">
-                        <p>“Reevona’s designs helped us stand out and doubled our engagement rate.”</p>
-                        <span>— Pristine Luxury Apartments</span>
-                    </div>
+                <div className="testimonial-card small-card top-left scale left">
+                    <p>“Incredible team our app is now faster and more user-friendly!”</p>
+                    <span>— Wilson T Real Estates.</span>
+                </div>
 
-                    <div className="stat-card number scale right">
-                        <p> <strong>4.9</strong> ★ Average Rating </p>
-                    </div>
+                <div className="testimonial-card small-card bottom-right scale right">
+                    <p>“Reevona’s designs helped us stand out and doubled our engagement rate.”</p>
+                    <span>— Pristine Luxury Apartments</span>
+                </div>
 
-                    <div className="stat-card scale left">
-                        <p> <strong>100+</strong> Satisfied Clients </p>
-                    </div>
+                <div className="stat-card number scale right">
+                    <p> <strong>4.9</strong> ★ Average Rating </p>
+                </div>
 
+                <div className="stat-card scale left">
+                    <p> <strong>100+</strong> Satisfied Clients </p>
                 </div>
 
             </div>

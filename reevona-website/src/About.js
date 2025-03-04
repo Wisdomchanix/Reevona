@@ -26,7 +26,7 @@ const About = () => {
                         Reevona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria, 
                         specializing in websites, apps, and branding. We help <b>real estate and shortlet businesses
                         dominate their market, increase bookings, and drive sustainable growth</b>. More than just a 
-                        tech company—we’re your partner in success.
+                        tech company we’re your partner in success.
                     </p>
                 </div>
 
