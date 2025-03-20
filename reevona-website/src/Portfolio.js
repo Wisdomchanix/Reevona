@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import website1 from './assets/portfolio_images/website1.jpg';
 import website2 from './assets/portfolio_images/website2.jpg';
 import website3 from './assets/portfolio_images/website3.jpg';
-import website4 from './assets/portfolio_images/website4.jpg'
-import website5 from './assets/portfolio_images/website5.jpg'
-import website6 from './assets/portfolio_images/website6.jpg'
+import website4 from './assets/portfolio_images/website4.jpg';
+import website5 from './assets/portfolio_images/website5.jpg';
+import website6 from './assets/portfolio_images/website6.jpg';
 
 const slides = [
     {

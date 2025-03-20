@@ -8,7 +8,10 @@ import About from "./About";
 import Services from "./Services";
 import ChooseUs from "./ChooseUs";
 import Portfolio from "./Portfolio";
-import RiskSection from "./RiskSection"
+import RiskSection from "./RiskSection";
+import FAQ from "./Faq";
+import Scroll from "./Scroll";
+
 
 const App = () => {
   useEffect(() => {
@@ -61,6 +64,8 @@ const App = () => {
       <ChooseUs />
       <Portfolio />
       <RiskSection />
+      <FAQ />
+      <Scroll />
     </div>
   );
 
