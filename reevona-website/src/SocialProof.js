@@ -97,7 +97,7 @@ const SocialProof = () => {
 
                 <div className="testimonial-card small-card bottom-right scale right">
                     <p>“Revvona’s designs helped us stand out and doubled our engagement rate.”</p>
-                    <span>— Pristine Luxury Apartments</span>
+                    <span>— Lekki Luxury Apartments</span>
                 </div>
 
                 <div className="stat-card number scale right">

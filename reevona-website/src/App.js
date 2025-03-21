@@ -11,6 +11,8 @@ import Portfolio from "./Portfolio";
 import RiskSection from "./RiskSection";
 import FAQ from "./Faq";
 import Scroll from "./Scroll";
+import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -66,6 +68,8 @@ const App = () => {
       <RiskSection />
       <FAQ />
       <Scroll />
+      <ContactForm />
+      <Footer />
     </div>
   );
 

@@ -9,45 +9,52 @@ import website6 from './assets/portfolio_images/website6.jpg';
 const slides = [
     {
         id: 1,
-        title: "Zello Realestate",
+        title: "Cwlagos Realestate",
         image: website1,
+        link : "https://cwlagos.com",
     },
 
     {
         id: 2,
-        title: " Hoommio",
+        title: "Dream Estate Lekki",
         image : website2,
+        link : "https://dreamestatelekkiltd.ng/?gad_source=1&gbraid=0AAAAA-5BR1rAwRxRTtDTe0k_cHTY9qQsu",
     },
 
     {
         id: 3,
         title: "Homy",
         image: website3,
+        link : "https://dradrockng.com",
     },
 
     {
         id: 4,
-        title: "Best House",
+        title: "Shortlet homes",
         image: website4,
+        link: "Shortlethomeshttps://www.shortlethomes.netShortlethomes: Short Let Apartments in Lekki and Prime Locations in Lagos",
     },
 
     
     {
         id: 5,
-        title: "Interior Design Company",
+        title: "Gidistays",
         image: website5,
+        link : "https://gidistays.com/",
     },
 
     {
         id: 6,
         title: "Luxury Real Esate",
         image: website6,
+        link : "https://havilahrealestateng.com/advantages-of-investing-in-short-let-apartments-in-nigeria/",
     },
 
     {
         id: 7,
         title: "FinHome ShortLet Apartments",
         image: "/Images/FinHomePage.jpg",
+        link : "https://www.shortletrentals.com"
     },
 
 ];
@@ -87,8 +94,8 @@ const Portfolio = () => {
                                 <img src={slide.image} alt={slide.title} className="slide-image" loading = "lazy" />
                                 <div className="overlay">
                                     <div className="icons">
-                                        <span className="icon">🔗</span>
-                                        <span className="icon">🔍</span>
+                                        <a href= {slide.link} target="_blank" rel="noopener noreferrer"><span className="icon">🔗</span></a>
+                                        <a href= {slide.link} target= "_blank" rel="noopener noreferrer"><span className="icon">🔍</span></a>
                                     </div>
 
                                     <h3 className="slide-title">{slide.title}</h3>

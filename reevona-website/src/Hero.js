@@ -34,17 +34,17 @@ const Hero = () => {
                         </p>
                     </div>
 
-                    <a href="#home" className="button">
+                    <a href="#contact" className="button">
                         Get a Website.
                     </a>
 
                 </div>
                 <div className="home_social">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="home_social-link">
+                    <a href="https://www.instagram.com/revvona_?igsh=Yzc1dWtnNzU0emZz&utm_source=qr" target="_blank" rel="noopener noreferrer" className="home_social-link">
                         <i class="ri-facebook-box-fill"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="home_social-link">
+                    <a href="https://www.instagram.com/revvona_?igsh=Yzc1dWtnNzU0emZz&utm_source=qr" target="_blank" rel="noopener noreferrer" className="home_social-link">
                         <i class="ri-instagram-fill"></i>
                     </a>
 
@@ -52,7 +52,7 @@ const Hero = () => {
                         <i class="ri-twitter-fill"></i>
                     </a>
 
-                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="home_social-link">
+                    <a href="https://www.tiktok.com/@revvona?_t=ZM-8v68ASa1PIE&_r=1" target="_blank" rel="noopener noreferrer" className="home_social-link">
                         <i class="ri-tiktok-fill"></i>
                     </a>
                 </div>

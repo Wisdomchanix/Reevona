@@ -35,10 +35,10 @@ const NavBar = () => {
                     <ul className="nav_list">
                         {[
                             { name: "Home", hash: "#home" },
+                            { name: "Testimonials", hash: "#testimonials" },
                             { name: "About Us", hash: "#about" },
                             { name: "Services", hash: "#services" },
                             { name: "Portfolio", hash: "#portfolio" },
-                            { name: "Testimonials", hash: "#testimonials" },
                             { name: "Contact Us", hash: "#contact" },].map((item) => (
                                 <li className="nav_item" key={item.hash}>
                                     <a

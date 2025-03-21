@@ -57,7 +57,7 @@ const Faq = () => {
     };
 
     return (
-        <section className="section faq_section">
+        <section className="section faq_section" id ="faq">
               <div className="top_banner">
                     <h1 className="section_title faq_title">Do You Have Any Questions? </h1>
                     <p className="banner_description">Find answers to common questions about Revvona's services below.</p>
