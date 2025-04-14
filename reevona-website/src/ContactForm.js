@@ -46,7 +46,7 @@ const ContactForm = () => {
 
     return (
         <div className="contact-section"  id= "contact">
-            <div className="contact-container">
+            <div className="contact-container container">
                 <h2 className="contact-headline section_title">Get in Touch</h2>
                 <p className="contact-intro">
                     Let's create a high-converting website for your short-let or real estate business.

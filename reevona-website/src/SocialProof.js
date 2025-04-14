@@ -16,6 +16,7 @@ const SocialProof = () => {
 
         sr.reveal(".left", { delay: 300, origin: 'left' })
         sr.reveal(".right", { delay: 300, origin: 'left' })
+        sr.reveal(".socialProof_img", { delay: 300, origin: 'left' })
     }, [])
 
     const [count, setCount] = useState(0)
@@ -78,34 +79,8 @@ const SocialProof = () => {
                 </div>
 
 
-                <div className="testimonial-card main-card">
-                   
-                    <div className="testimonial-content">
-                        <h3>Our Happy Customer</h3>
-                        <p>Revvona transformed our online presence. Our sales increased by 250% within three months!</p>
-                        <span className="client-name">_Lendio Shortlet Apartment</span>
-                        <div className="stars">★★★★★</div>
-                        {/* <img src="TmClientLogo.jpg" alt="Client" className="client-img" /> */}
-                    </div>
-                   
-                </div>
-
-                <div className="testimonial-card small-card top-left scale left">
-                    <p>“Incredible team our app is now faster and more user-friendly!”</p>
-                    <span>— Wilson T Real Estates.</span>
-                </div>
-
-                <div className="testimonial-card small-card bottom-right scale right">
-                    <p>“Revvona’s designs helped us stand out and doubled our engagement rate.”</p>
-                    <span>— Lekki Luxury Apartments</span>
-                </div>
-
-                <div className="stat-card number scale right">
-                    <p> <strong>4.9</strong> ★ Average Rating </p>
-                </div>
-
-                <div className="stat-card scale left">
-                    <p> <strong>100+</strong> Satisfied Clients </p>
+                <div className="socialProof_img">
+                    <img src="/Images/socialproof.PNG" alt="About Us" className="sp_img" />
                 </div>
 
             </div>

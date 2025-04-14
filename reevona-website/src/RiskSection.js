@@ -6,34 +6,34 @@ const RiskSection = () => {
 
     const risks = [
         {
-            title: "Loss of Credibility",
+            title: "You lose Credibility",
             description:
-                "Ever searched for a business online and found… nothing? Feels sketchy, right? Having no website makes your business look outdated and untrustworthy.",
+                " No website? People won't trust your listings. With one you look legit and professional hence clients would book with confidence.",
         },
 
         {
-            title: "Limited Customer Reach",
+            title: "You're Invisible Online",
             description:
-                "Imagine owning a store that no one can find. That’s what happens  when you don’t have a website! With over 5 billion people online, your potential customers are searching for businesses like yours.",
+                "If they can't find you, they can't book you But with your website your properties show up, stand out, and get picked",
         },
 
         {
-            title: "Missed Revenue Opportunities",
-            description: "Your business could be making money while you sleep—but only if you’re online.A website allows customers to book, buy, or contact you 24/7.",
+            title: "You Miss Bookings while you sleep",
+            description: "Your business could be making money while you sleep but only if you’re online. A website allows customers to book, buy, or contact you 24/7.",
         },
     ];
 
 
     const hiddenRisks = [
-
+ 
         {
             title: "Weaker Brand Presence",
             description:
-                "Your brand is more than just a logo—it’s the way people see and remember you.Without a website, you’re giving competitors a chance to own the conversation online.",
+                "Your brand is more than just a logo—it’s the way people see and remember you.With a website your business becomes a trusted name in the real estate or short-let niche.",
         },
 
         {
-            title: "Dependence on Social Media",
+            title: "You Rely Too Much On Social Media",
             description:
                 "Social media platforms change algorithms, limit reach, or even ban accounts overnight.A website gives you full control—your business, your rules.",
         },
@@ -46,7 +46,7 @@ const RiskSection = () => {
 
         {
             title: "Competitive Disadvantage",
-            description: "Your competitors are online—and they’re getting your potential customers. A website helps you stay ahead by showcasing your expertise and services.",
+            description: "Your competitors are online. You're not. Guess who's getting the bookings and sales ? A website helps you stay ahead, attract more clients and close more deals.",
         },
 
     ];
@@ -58,12 +58,14 @@ const RiskSection = () => {
                 <h1 className="section_title risk_title">Can Your Business Afford to Stay the Same?</h1>
             </div>
             <div className="risk_container container">
+
                 <p className="intro-text">
                     <b>
                         The first step in increasing business successfully is to make sure your clientele can
                         locate your company quickly and easily...
                     </b>
                 </p>
+
                 <div className="risks-container">
                     {risks.map((risk, index) => (
                         <div key={index} className="risk-card">
@@ -104,7 +106,7 @@ const RiskSection = () => {
                         className="dropdown-btn"
                         onClick={() => setIsOpen(!isOpen)}> {isOpen ? "Hide Risks" : "See More Risks"}
                     </button>
-                    <a href="/contact" className="cta-btn">Take the First Step Now</a>
+                    <a href="#contact" className="cta-btn">Take the First Step Now</a>
                 </div>
             </div>
         </section>

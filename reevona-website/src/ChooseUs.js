@@ -33,11 +33,9 @@ const ChooseUs = () => {
 
                 </svg>
             </div>
-
-
+            <h1 className="section_title">Why Businesses Trust Revvona.</h1>
 
             <div className="chooseUs_container container">
-                 <h1 className="section_title">Why Businesses Trust Revvona.</h1>
                 <div className="feature-box box_1">
                     <img src="/Images/REVENUE-GROWTH.png" alt="Code Icon" className="feature-icon" />
                     <h2 className="section_subtitle feature-title">Proven Track Record</h2>

@@ -28,10 +28,9 @@ const Services = () => {
     return (
         <section className="services_section section" id="services">
             <SpiralLine />
+            <h1 className="section_title">Our Services, Your Growth</h1>
 
-            <div className="cards_container container">
-                <h1 className="section_title">Our Services, Your Growth</h1>
-
+            <div className="cards_container container grid">
                 <div className="card card-1 show_card">
                     <i class="ri-macbook-line service_icon"></i>
                     <h2 className="section_subtitle">Website & App Development</h2>
@@ -48,7 +47,7 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className="card card-4 " >
+                <div className="card card-4 show_card" >
                     <i class="ri-pen-nib-fill service_icon"></i>
                     <h2 className="section_subtitle">Graphic Design </h2>
                     <p className="card_description">
@@ -71,14 +70,13 @@ const Services = () => {
                     </div>
                 </motion.div>
 
-
-                <div className="servicesButton_container">
-                    <button className="services_btn" onClick={toggleServices}>
-                        <span> {showAll ? "Show Less" : "View All Services"}</span>
-                        <i class="ri-arrow-right-line services_arrow"></i>
-                    </button>
-                </div>
-
+            </div>
+            <div className="servicesButton_container">
+                <button className="services_btn" onClick={toggleServices}>
+                    <span> {showAll ? "Show Less" : "View All Services"}</span>
+                    <i class="ri-arrow-right-line services_arrow"></i>
+                </button>
             </div>
         </section>);
-}; export default Services;
+};
+export default Services;

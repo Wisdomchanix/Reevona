@@ -29,6 +29,7 @@ const NavBar = () => {
             <nav className="nav navbar">
                 <a href="#home" className="nav_logo">
                     <img src="/Reevona-logo.png" alt="Reevona logo" className="logo" />
+                    {/* <img src="/Desktop logo.png" alt="Reevona logo" className="logo_desktop" /> */}
                 </a>
 
                 <div className={`nav_menu ${menuOpen ? "show-menu" : ""}`} id="nav-menu">

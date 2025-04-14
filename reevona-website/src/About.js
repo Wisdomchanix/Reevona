@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import scrollreveal from "scrollreveal";
 
 const About = () => {
@@ -13,19 +13,20 @@ const About = () => {
         })
 
 
-        sr.reveal(".about_section", { delay: 200})
+        sr.reveal(".about_section", { delay: 200 })
     }, [])
 
     return (
         <section className="about_section section" id="about">
-            <div className="about_container container grid">
 
-                <div className="about_data">
-                    <h1 className="section_title about_title">Who are We</h1>
-                    <p className="about_description"> 
-                        Revvona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria, 
+            <div className="about_container container">
+                <div className="about_data socialProof_data">
+                    <h1 className="section_title about_title">Who are We ?</h1>
+
+                    <p className="about_description">
+                        Revvona is a top-tier <b>web design and development agency</b> in Port Harcourt, Nigeria,
                         specializing in websites, apps, and branding. We help <b>real estate and shortlet businesses
-                        dominate their market, increase bookings, and drive sustainable growth</b>. More than just a 
+                            dominate their market, increase bookings, and drive sustainable growth</b>. More than just a
                         tech company we’re your partner in success.
                     </p>
                 </div>
@@ -33,16 +34,16 @@ const About = () => {
                 <div className="about_img">
                     <div className="about_img-overlay">
                         {/* <img className="about_img-one" src="./AboutUsImage.jpg" alt="About Image"/> */}
-                        <img src="/Images/AboutImg2.jpg" alt="About Us Image" className="about_img-one" />
+                        <img src="/Images/AboutImg2.jpg" alt="About Us" className="about_img-one" />
                     </div>
 
                     <div className="about_img-overlay">
-                        <img src="./Images/AboutImg.jpg" alt="About Us Image" className ="about_img-two"/>
+                        <img src="./Images/AboutImg.jpg" alt="About Us" className="about_img-two" />
                     </div>
                 </div>
 
-                <p className="about_data"><i>At Revvona, we don't just build websites and apps,
-                we create growth engines for your business.</i>
+                <p className="about_data "><i>At Revvona, we don't just build websites and apps,
+                    we create growth engines for your business.</i>
                 </p>
             </div>
 
