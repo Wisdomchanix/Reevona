@@ -103,7 +103,7 @@ const RiskSection = () => {
 
                 <div className="cta_container">
                     <button
-                        className="dropdown-btn"
+                        className="dropdown-btn show_more-btn"
                         onClick={() => setIsOpen(!isOpen)}> {isOpen ? "Hide Risks" : "See More Risks"}
                     </button>
                     <a href="#contact" className="cta-btn">Take the First Step Now</a>

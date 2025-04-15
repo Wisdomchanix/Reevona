@@ -479,6 +479,9 @@ input {
   margin-bottom: 50px;
 }
 
+.sp_img:hover {
+  transform: scale(1.05);
+}
 
 
 
@@ -1669,9 +1672,7 @@ input {
     height: auto;
   }
 
-  /* .servicesButton_container{
-    display: none;
-  } */
+
 
   .chooseUs_container {
     display: grid;
@@ -1681,15 +1682,39 @@ input {
   }
 
 
-  .risks-container {
+  .risk-card{
+    /* width: 300px; */
+  }
+
+
+  .risks-container{
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 
+  .risks-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .accordion {
-    display: block;
+    display: none !important; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .show_more-btn{
+    display: none !important;
   }
 
 
