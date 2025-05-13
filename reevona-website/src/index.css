@@ -6,10 +6,6 @@
   /* COLORS */
   --hue-color: 190;
   --due-color: 206;
-  /* hsl color mode */
-  /* --first-color: hsl(var(--hue-color), 64%, 22%);
-  --first-color-second: hsl(var(--hue-color), 64%, 22%);
-  --first-color-alt: hsl(var(--hue-color), 64%, 15%); */
   --title-color: hsl(var(--hue-color), 64%, 18%);
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
@@ -57,9 +53,6 @@
 }
 
 
-
-
-
 @media screen and(min-width:968px) {
   :root {
     --biggest-font-size: 4rem;
@@ -71,7 +64,6 @@
     ---smaller-font-size: .813rem;
   }
 }
-
 
 
 * {
@@ -161,25 +153,10 @@ input {
   font-weight: (var(--h2-font-size));
 }
 
-/* 
-.section_title::before {
-  content: '';
-  position: absolute;
-  top: -1rem;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 67px;
-  height: 1px;
-  background-color: #E9CC44;
-} */
-
-
 .grid {
   display: grid;
   gap: 1.5rem;
 }
-
 
 .container {
   max-width: 1024px;
@@ -225,13 +202,8 @@ input {
 
 .logo {
   height: 120px;
-  /* display: block; */
 }
 
-/* .logo_desktop{
-  display: none;
-  height: 120px;
-} */
 
 .nav_toggle {
   font-size: 1.2rem;
@@ -390,7 +362,6 @@ input {
 }
 
 .home_info {
-  /* background-color: #f1b24a; */
   background-color: #f1b24a;
   display: flex;
   padding: 1.5rem 1rem;
@@ -535,8 +506,9 @@ input {
   transform: var(--img-scale);
 }
 
-/* SERVICES */
 
+
+/* SERVICES */
 
 .cards_container {
   display: flex;
@@ -546,8 +518,6 @@ input {
 }
 
 .card {
-  /* 
- */
   color: white;
   background: linear-gradient(135deg, #E9CC44, #73AC8C);
   padding: 20px;
@@ -640,15 +610,11 @@ input {
 }
 
 .services_arrow {
-  /* position: relative; */
   background: transparent;
   color: white;
   font-size: 18px;
-  /* padding: 8px 12px; */
   border-radius: 50%;
-  /* z-index: 2; */
 }
-
 
 .services_btn:hover::before {
   width: 100%;
@@ -661,6 +627,8 @@ input {
 .services_btn:hover .services_arrow {
   color: rgb(255, 255, 255);
 }
+
+/* SPIRAL */
 
 .spiral-container {
   position: absolute;
@@ -704,12 +672,10 @@ input {
 .feature-box {
   margin-bottom: 50px;
   padding: 20px;
-  /* background-color: aqua; */
 }
 
 .feature-icon {
   width: 220px;
-  /* Adjust icon size */
   margin-bottom: 10px;
   height: auto;
 }
@@ -874,7 +840,6 @@ input {
   color: white;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  /* border-radius: 50%; */
 }
 
 .left {
@@ -895,7 +860,6 @@ input {
 /* RISK SECTION */
 
 .risk-section {
-  /* background: #046c2d; */
   color: black;
   text-align: center;
 }
@@ -924,7 +888,6 @@ input {
 
 
 .risks-container {
-  /* text-align: left; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -992,12 +955,6 @@ input {
   margin-bottom: 30px;
 
 }
-
-/* 
-.cta-btn{
-  background-color: #046c2d;
-  color: #f1b24a;
-} */
 
 .cta-btn:hover {
   background: #f1b24a;
@@ -1139,7 +1096,6 @@ input {
 }
 
 .faq-item {
-  /* background-color: rgba(0, 0, 0, 0.07); */
   margin-bottom: 10px;
   border-radius: 8px;
   cursor: pointer;
@@ -1413,8 +1369,6 @@ input {
 
 
 
-
-
 /* FOOTER */
 
 .footer {
@@ -1442,12 +1396,10 @@ input {
 }
 
 .footer_link {
-  /* color: var(--text-color); */
   color: white;
 }
 
 .footer_link:hover {
-  /* color: var(--title-color); */
   color: rgb(248, 235, 211);
 }
 
@@ -1493,7 +1445,6 @@ input {
 }
 
 
-
 /* MEDIA QUERY */
 
 @media screen and (min-width: 500px) {
@@ -1536,14 +1487,7 @@ input {
     flex-direction: row;
     column-gap: 4rem;
   }
-/* 
-  .logo_desktop{
-    display: block;
-  }
 
-  .logo{
-    display: none;
-  } */
 
   .nav_toggle,
   .nav_close {
@@ -1617,7 +1561,6 @@ input {
     width: 500px;
     display: grid;
     place-items: center;
-    /* margin: 0 auto; */
   }
 
   .social_proof-data {
@@ -1649,7 +1592,6 @@ input {
     align-items: center;
     gap: 1.5rem;
     padding: 30px;
-    /* width: 285px; */
   }
 
   .card_description {
@@ -1661,13 +1603,6 @@ input {
   }
 
   .hidden_card {
-    /* display: none;
-    opacity: 0; 
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px; */
     opacity: 1;
     height: auto;
   }
@@ -1679,11 +1614,6 @@ input {
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-  }
-
-
-  .risk-card{
-    /* width: 300px; */
   }
 
 
@@ -1770,9 +1700,26 @@ input {
     width: 290px;
   }
 
+  .about_img{
+   margin-left: 20px;
+  }
+
   .contact-container,
   .faq-container {
     max-width: 900px;
+  }
+
+  .cards_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+  }
+
+  .risks-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    
   }
 
 

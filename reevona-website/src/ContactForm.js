@@ -54,10 +54,10 @@ const ContactForm = () => {
 
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <input type="text" name="name" placeholder="Full Name" required onChange={handleChange} />
-                    <input type="text" name="name" placeholder="Company Name" required onChange={handleChange} />
+                    <input type="text" name="company" placeholder="Company Name" required onChange={handleChange} />
                     <input type="email" name="email" placeholder="Email Address" required onChange={handleChange} />
                     <input type="text" name="phone" placeholder="Phone Number" required onChange={handleChange} />
-                    <select name="projectType" required onChange={handleChange} value={formData.projectType}>
+                    <select name="project" required onChange={handleChange} value={formData.projectType}>
                         <option value="">What type of project do you need?</option>
                         <option value="Website Development">Website Development</option>
                         <option value="Branding/Design">Branding/Design</option>
